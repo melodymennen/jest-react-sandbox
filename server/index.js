@@ -11,5 +11,5 @@ app.get('/api/cars', (req, res) => {
     res.status(200).send(cars)
 })
 
-const port = 3001;
+const port = 3030;
 app.listen(port, () => console.log(`Listening on port: ${port}`));
